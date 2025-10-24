@@ -1,4 +1,4 @@
-<img width="1024" height="699" alt="image" src="https://github.com/user-attachments/assets/78465989-2fdf-4daa-a139-ddce446f17af" /><img width="1024" height="699" alt="image" src="https://github.com/user-attachments/assets/8870efac-5e9c-44a8-98de-ba9d69d7d447" /><img width="1024" height="699" alt="image" src="https://github.com/user-attachments/assets/79670111-ce34-4546-ad3e-e65f502ad758" /># 🌸 Cute Anime Girl 3D Demo
+# 🌸 Cute Anime Girl 3D Demo
 
 A small **Unity WebGL interactive demo**
 Accessible directly from the browser — no installation required! ✨  
