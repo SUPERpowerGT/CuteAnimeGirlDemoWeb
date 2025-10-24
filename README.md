@@ -105,59 +105,61 @@ This demo showcases the **full pipeline of creating an interactive 3D character 
 
 ## 🧱 Project Structure
 
+```text
 CuteAnimeGirlDemo/
 ├── Assets/
-│ ├── 🎵 Audio/
-│ │ ├── Bg_music_soft_chile.mp3 — background BGM
-│ │ ├── button_click.wav — UI button click sound
-│ │ └── fart.wav — funny sound effect for testing
-│ │
-│ ├── 🧍‍♀️ Character/
-│ │ ├── Animations/ — imported Mixamo motion clips (idle, walk, wave, etc.)
-│ │ ├── Controllers/ — Animator Controllers for character states
-│ │ ├── Materials/ & Textures/ — character visual assets
-│ │ └── CuteGirl_Idle.prefab — main playable 3D model prefab
-│ │
-│ ├── 🔤 Fonts/
-│ │ ├── Pacifico-Regular — UI title font
-│ │ └── Font Material & Font Texture — TMP rendering assets
-│ │
-│ ├── 🖼️ Images/
-│ │ ├── moon.png, poop.png, boring.png, etc. — emoji action icons
-│ │ ├── settings.png, return.png, Exit.png — UI control buttons
-│ │ └── circle.png, RoundRec.png — reusable UI shape masks
-│ │
-│ ├── 🎨 Materials/
-│ │ └── SoftGradientBackground.mat — background gradient material
-│ │
-│ ├── 🎬 Scenes/
-│ │ └── MainScene.unity — the main demo scene
-│ │
-│ ├── 💻 Scripts/
-│ │ ├── CuteGirlController.cs — handles character animation logic
-│ │ ├── CuteGirlUIController.cs — manages UI → animation interaction
-│ │ ├── OrbitCameraController.cs — rotate/zoom camera with mouse
-│ │ ├── PauseMenuController.cs — pause system (for dev test)
-│ │ ├── SceneFadeIn.cs, SceneFadeInTitle.cs — smooth entry effects
-│ │ ├── ButtonFartSound.cs — trigger sound from UI event
-│ │ └── UIClickSound.cs — unified button sound manager
-│ │
-│ ├── 🔠 TextMesh Pro/
-│ │ ├── Fonts & Materials — TMP internal resources
-│ │ ├── Sprites — emoji font atlas
-│ │ └── TMP Settings — project-wide TMP config
-│ │
-│ ├── ⚙️ Settings/
-│ │ └── InputSystem_Actions — defines Unity Input Actions mapping
-│ │
-│ ├── 📘 TutorialInfo/ — default Unity tutorial info folder
-│ ├── 🎛️ CuteGirlControls/ — Input Action asset for gameplay keys (2–5)
-│ └── 📄 Readme — project-level documentation file
+│   ├── 🎵 Audio/
+│   │   ├── Bg_music_soft_chile.mp3 — background BGM
+│   │   ├── button_click.wav — UI button click sound
+│   │   └── fart.wav — funny sound effect for testing
+│   │
+│   ├── 🧍‍♀️ Character/
+│   │   ├── Animations/ — imported Mixamo motion clips (idle, walk, wave, etc.)
+│   │   ├── Controllers/ — Animator Controllers for character states
+│   │   ├── Materials/ & Textures/ — character visual assets
+│   │   └── CuteGirl_Idle.prefab — main playable 3D model prefab
+│   │
+│   ├── 🔤 Fonts/
+│   │   ├── Pacifico-Regular — UI title font
+│   │   └── Font Material & Font Texture — TMP rendering assets
+│   │
+│   ├── 🖼️ Images/
+│   │   ├── moon.png, poop.png, boring.png — emoji action icons
+│   │   ├── settings.png, return.png, Exit.png — UI control buttons
+│   │   └── circle.png, RoundRec.png — reusable UI shape masks
+│   │
+│   ├── 🎨 Materials/
+│   │   └── SoftGradientBackground.mat — background gradient material
+│   │
+│   ├── 🎬 Scenes/
+│   │   └── MainScene.unity — main demo scene
+│   │
+│   ├── 💻 Scripts/
+│   │   ├── CuteGirlController.cs — character animation logic
+│   │   ├── CuteGirlUIController.cs — manages UI → animation interaction
+│   │   ├── OrbitCameraController.cs — rotate / zoom camera
+│   │   ├── PauseMenuController.cs — pause system (for dev test)
+│   │   ├── SceneFadeIn.cs, SceneFadeInTitle.cs — smooth scene transitions
+│   │   ├── ButtonFartSound.cs — trigger sound from UI event
+│   │   └── UIClickSound.cs — unified button sound manager
+│   │
+│   ├── 🔠 TextMesh Pro/
+│   │   ├── Fonts & Materials — TMP internal resources
+│   │   ├── Sprites — emoji font atlas
+│   │   └── TMP Settings — project-wide TMP config
+│   │
+│   ├── ⚙️ Settings/
+│   │   └── InputSystem_Actions — defines Unity Input Action mappings
+│   │
+│   ├── 📘 TutorialInfo/ — default Unity tutorial folder
+│   ├── 🎛️ CuteGirlControls/ — input actions for gameplay keys (2–5)
+│   └── 📄 Readme — project-level documentation file
 │
-├── Build/ # WebGL build output
-├── TemplateData/ # Unity WebGL template files
-├── index.html # Entry point for WebGL build
-└── README.md # Documentation file with controls & info
+├── Build/ — WebGL build output
+├── TemplateData/ — Unity WebGL template files
+├── index.html — entry point for WebGL build
+└── README.md — documentation with controls & info
+```
 
 ---
 
