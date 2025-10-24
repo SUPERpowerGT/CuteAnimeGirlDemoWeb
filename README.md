@@ -73,11 +73,13 @@ This demo showcases the **full pipeline of creating an interactive 3D character 
 | Switch to “Expression” action | Press **4** | Tap the “Face” icon |
 | Toggle Walk / Idle state | Press **5** | Tap the “Footstep” icon |
 | Reset camera view | Press **R** | — |
+| **Exit / Back to Menu** | Press **ESC** | Tap the “Exit” or “Back” button |
 
-> 💡 **Tips:**  
-> • You can switch all actions either by clicking the UI icons or using number keys (2–5).  
-> • Left mouse drag to orbit the character, scroll to zoom at any time.  
-> • Press **R** to quickly reset the camera to its default angle.
+> 💡 **Tips:**
+> - You can switch all actions either by clicking the UI icons or using number keys (2–5).  
+> - Left mouse drag to orbit the character, scroll to zoom at any time.  
+> - Press **R** to quickly reset the camera to its default view.  
+> - Press **ESC** (or tap Exit) to leave the scene or return to the main menu — ideal for both **Windows** and **WebGL** builds.
 
 ---
 
